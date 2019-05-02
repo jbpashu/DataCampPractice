@@ -1,11 +1,11 @@
-###
+'''
 Iterators as function arguments
 You've been using the iter() function to get an iterator object, as well as the next() function to retrieve the values one by one from the iterator object.
 
 There are also functions that take iterators as arguments. For example, the list() and sum() functions return a list and the sum of elements, respectively.
 
 In this exercise, you will use these functions by passing an iterator from range() and then printing the results of the function calls.
-###
+'''
 
 # Create a range object: values
 values = range(10, 20)
