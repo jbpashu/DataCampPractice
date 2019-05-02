@@ -7,7 +7,7 @@ print(next(small_value))
 print(next(small_value))
 
 # Loop over range(3) and print the values
-for num in small_value:
+for num in range(3):
     print(num)
 
 
