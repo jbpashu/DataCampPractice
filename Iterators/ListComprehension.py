@@ -17,3 +17,10 @@ flash = ['jay garrick', 'barry allen', 'wally west', 'bart allen']
 
 valjean = 24601
 
+# Interger objects are not interable
+
+#write a list comprehension that produces a list of the squares of the numbers ranging from 0 to 9
+squares = [i * i for i in range(0, 10)] # Last number excluded we need to till 9 but passing 10 will give the desired o/p
+
+print(squares)
+
