@@ -24,3 +24,19 @@ squares = [i * i for i in range(0, 10)] # Last number excluded we need to till 9
 
 print(squares)
 
+#matrix = [[0, 1, 2, 3, 4],
+#          [0, 1, 2, 3, 4],
+#          [0, 1, 2, 3, 4],
+#          [0, 1, 2, 3, 4],
+#          [0, 1, 2, 3, 4]]
+# Your task is to recreate this matrix by using nested listed comprehensions
+#[[output expression] for iterator variable in iterable]
+
+# Create a 5 x 5 matrix using a list of lists: matrix
+matrix = [[col for col in range(0, 5)] for col in range(0, 5)]
+
+# Print the matrix
+for row in matrix:
+    print(row)
+
+    
